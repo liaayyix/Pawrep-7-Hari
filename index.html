@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAWREP SENIN KE SENIN | E-book Meal Prep Hemat & Teratur</title>
+    <!-- Memuat Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Mengatur font Inter sebagai default */
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Warna latar belakang hangat dan lembut: Cream */
+            background-color: #fcf7f3; 
+        }
+        .header-bg {
+            /* Gradient hangat Cream ke Maroon soft (E0B4B4) */
+            background-color: #f7e7d9; 
+            background-image: linear-gradient(to right top, #fcf7f3, #f7e7d9, #e0b4b4);
+        }
+        .text-paw {
+            /* Teks utama: Maroon gelap */
+            color: #5c0000; 
+        }
+        .btn-primary {
+            /* Warna tombol: Maroon sedang */
+            background-color: #8c0000; 
+            transition: all 0.2s;
+        }
+        .btn-primary:hover {
+            background-color: #5c0000;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(92, 0, 0, 0.4);
+        }
+    </style>
+    <!-- Placeholder SVG Cat Icon for E-book -->
+    <svg id="cat-icon" style="display:none;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-10 h-10">
+        <path d="M12 2a3 3 0 0 0-3 3v2h6V5a3 3 0 0 0-3-3z"></path>
+        <path d="M10 18v2a2 2 0 0 0 4 0v-2"></path>
+        <path d="M19 10c0 4.42-3.58 8-8 8H7c-4.42 0-8-3.58-8-8 0-4.42 3.58-8 8-8h2v2h2V2h2a8 8 0 0 1 8 8z"></path>
+        <path d="M16 11l1 1-1 1"></path>
+        <path d="M8 11l-1 1 1 1"></path>
+    </svg>
+</head>
+
+<body class="text-gray-800 antialiased">
+
+    <!-- Header & Hero Section -->
+    <header class="header-bg shadow-lg">
+        <div class="container mx-auto px-4 py-12 md:py-20 text-center">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-4 text-paw tracking-tight">
+                PAWREP <span class="text-white drop-shadow-md">SENIN KE SENIN</span>
+            </h1>
+            <p class="text-xl md:text-2xl font-semibold mb-8 text-paw">
+                “Paw-fect Meals for a Paw-fect Week.”
+            </p>
+            <p class="max-w-3xl mx-auto text-lg mb-10 text-paw/90">
+                Senin ke Senin terinspirasi dari rutinitas kucing yang tenang dan teratur. Dengan meal prep hemat kami, kamu bisa menikmati makanan lezat sepanjang minggu—tanpa ribet, tanpa boros. Hidupmu jadi lebih <strong class="font-bold">calm, cozy, dan konsisten</strong>, kayak kucing kesayanganmu. 🐾
+            </p>
+            <a href="#pricing" class="btn-primary text-white font-bold py-3 px-8 rounded-full shadow-xl hover:shadow-2xl transition duration-300 transform">
+                Dapatkan E-book Sekarang!
+            </a>
+        </div>
+    </header>
+
+    <main class="py-16 md:py-24">
+
+        <!-- Value Proposition Canvas: Pain Relievers & Gains -->
+        <section id="value" class="container mx-auto px-4 mb-20">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-12 text-paw">
+                Masalah Teratasi, Hidup Lebih Rapi!
+            </h2>
+            <div class="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+                
+                <!-- Pain Relievers (Mengatasi Masalah) - Menggunakan aksen Maroon/Stone -->
+                <div class="bg-stone-100 p-6 md:p-8 rounded-2xl shadow-lg border-2 border-stone-300">
+                    <h3 class="text-2xl font-bold mb-4 flex items-center text-paw">
+                        <span class="text-3xl mr-3">🤕</span> Solusi Pain Points
+                    </h3>
+                    <ul class="space-y-4 text-gray-700">
+                        <li class="flex items-start">
+                            <span class="font-bold text-paw mr-2">✓</span> Mengurangi kebingungan mau masak apa setiap hari dengan menu yang sudah disiapkan dari Senin ke Senin.
+                        </li>
+                        <li class="flex items-start">
+                            <span class="font-bold text-paw mr-2">✓</span> Menghemat waktu & tenaga untuk orang sibuk/ibu rumah tangga yang tidak sempat masak berulang kali.
+                        </li>
+                        <li class="flex items-start">
+                            <span class="font-bold text-paw mr-2">✓</span> Mengurangi pemborosan bahan makanan melalui daftar belanja hemat dan takaran pasti.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Benefits (Manfaat / Gains) - Menggunakan aksen Gold/Amber untuk kontras hangat -->
+                <div class="bg-amber-50 p-6 md:p-8 rounded-2xl shadow-lg border-2 border-amber-200">
+                    <h3 class="text-2xl font-bold mb-4 flex items-center text-amber-800">
+                        <span class="text-3xl mr-3">✨</span> Manfaat Langsung
+                    </h3>
+                    <ul class="space-y-4 text-gray-700">
+                        <li class="flex items-start">
+                            <span class="font-bold text-amber-700 mr-2">★</span> Membuat hidup lebih rapi & teratur karena makan selalu siap selama seminggu (weekly control).
+                        </li>
+                        <li class="flex items-start">
+                            <span class="font-bold text-amber-700 mr-2">★</span> Memberikan pengalaman memasak yang fun & cute, dibantu tampilan e-book bertema kucing.
+                        </li>
+                        <li class="flex items-start">
+                            <span class="font-bold text-amber-700 mr-2">★</span> Meningkatkan kebiasaan makan sehat dan terjadwal, tetapi tetap ramah kantong.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- E-book Content Section -->
+        <section id="content" class="container mx-auto px-4 mb-20">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-12 text-paw">
+                Apa Saja Isinya? 🐱
+            </h2>
+            <div class="max-w-4xl mx-auto bg-white p-6 md:p-10 rounded-3xl shadow-2xl border border-[#e0b4b4]">
+                <ul class="grid md:grid-cols-2 gap-x-8 gap-y-6 text-lg">
+                    <li class="flex items-start space-x-3">
+                        <span class="text-3xl text-paw">📖</span>
+                        <p><strong>E-book Meal Prep Senin ke Senin (7 Hari)</strong> lengkap dengan foto, resep detail, dan cara penyimpanan yang efektif.</p>
+                    </li>
+                    <li class="flex items-start space-x-3">
+                        <span class="text-3xl text-paw">🗓️</span>
+                        <p><strong>Template Planner Mingguan (Meal Schedule + Shopping List)</strong> khusus dengan ilustrasi tema kucing yang menggemaskan.</p>
+                    </li>
+                    <li class="flex items-start space-x-3">
+                        <span class="text-3xl text-paw">⏰</span>
+                        <p><strong>Bonus Mini-Tutorial:</strong> Cara hemat waktu saat *prep* dan tips pemanasan makanan agar tetap lezat.</p>
+                    </li>
+                    <li class="flex items-start space-x-3">
+                        <span class="text-3xl text-paw">💰</span>
+                        <p>Fokus pada <strong>Resep Sehat & Hemat</strong> yang menggunakan bahan-bahan mudah didapat dan terjangkau.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Target Audience Section -->
+        <section id="audience" class="container mx-auto px-4 mb-20">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-12 text-paw">
+                E-book Ini Cocok Untuk Siapa?
+            </h2>
+            <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto text-center">
+                <div class="bg-stone-100 p-6 rounded-xl shadow-md transform hover:scale-105 transition duration-300">
+                    <span class="text-5xl mb-3 block">🧑‍💻</span>
+                    <h4 class="font-bold text-xl mb-2 text-paw">Para Pekerja Sibuk (Karyawan)</h4>
+                    <p class="text-sm text-gray-600">Yang ingin makan sehat dan teratur tanpa harus repot masak setiap hari sepulang kantor.</p>
+                </div>
+                <div class="bg-stone-100 p-6 rounded-xl shadow-md transform hover:scale-105 transition duration-300">
+                    <span class="text-5xl mb-3 block">🏡</span>
+                    <h4 class="font-bold text-xl mb-2 text-paw">Ibu Rumah Tangga/Mahasiswa</h4>
+                    <p class="text-sm text-gray-600">Yang mencari cara praktis, hemat, dan terencana untuk menyediakan makanan keluarga atau bekal mingguan.</p>
+                </div>
+                <div class="bg-stone-100 p-6 rounded-xl shadow-md transform hover:scale-105 transition duration-300">
+                    <span class="text-5xl mb-3 block">🥗</span>
+                    <h4 class="font-bold text-xl mb-2 text-paw">Pencinta Gaya Hidup Sehat & Hemat</h4>
+                    <p class="text-sm text-gray-600">Yang fokus pada pengelolaan budget makanan dan ingin mengurangi *food waste* (sisa makanan).</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="container mx-auto px-4 mb-20">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-12 text-paw">
+                Kata Para Pawp-ers Kami 💖
+            </h2>
+            <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <!-- Testimoni 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-xl border-l-4 border-[#8c0000]">
+                    <p class="italic text-gray-700 mb-4">"Nggak nyangka meal prep bisa semudah ini! Template shopping list-nya beneran bantu hemat budget, dan resepnya simpel tapi enak banget. Tema kucingnya juga bikin semangat masak! Pawrep is the best!"</p>
+                    <p class="font-semibold text-paw">- Risa A. (Karyawan Swasta)</p>
+                </div>
+                <!-- Testimoni 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-xl border-l-4 border-[#8c0000]">
+                    <p class="italic text-gray-700 mb-4">"Sebagai ibu muda, waktu itu sangat berharga. E-book ini jadi penyelamat! Cukup masak hari Minggu, dan makanan sehat untuk anak dan suami siap sedia. Hidup jadi lebih tenang. Terima kasih!"</p>
+                    <p class="font-semibold text-paw">- Sarah M. (Ibu Rumah Tangga)</p>
+                </div>
+                <!-- Testimoni 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-xl border-l-4 border-[#8c0000]">
+                    <p class="italic text-gray-700 mb-4">"Saya mahasiswa kosan, biasanya boros di makanan. Setelah ikut panduan Pawrep, belanja jadi terarah, dan pengeluaran makanan turun drastis. Tips pemanasannya juga berguna banget!"</p>
+                    <p class="font-semibold text-paw">- Dika P. (Mahasiswa)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing & CTA Section -->
+        <section id="pricing" class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-12 text-paw">
+                Pilih Paket Meal Prep Terbaikmu!
+            </h2>
+            <div class="max-w-2xl mx-auto bg-white p-8 md:p-12 rounded-3xl shadow-2xl border-4 border-[#e0b4b4] text-center">
+                
+                <!-- E-book Package -->
+                <div class="mb-8 p-6 border-b border-gray-200">
+                    <h3 class="text-3xl font-bold text-paw mb-2">E-book PAWREP SENIN KE SENIN</h3>
+                    <p class="text-lg text-gray-600 mb-4">Meal Prep Lengkap 7 Hari + Planner Kucing Lucu</p>
+                    <p class="text-5xl font-extrabold text-paw">Rp 11.000</p>
+                </div>
+                
+                <!-- Add-On Service -->
+                <div class="mb-10 p-6 bg-stone-100 rounded-xl">
+                    <h3 class="text-2xl font-bold text-paw mb-2">Tambah Layanan Paw-sonal!</h3>
+                    <p class="text-xl font-bold text-paw mb-4">Jasa Konsultasi Meal Plan Personal</p>
+                    <p class="text-3xl font-extrabold text-paw/70 inline-block align-bottom">+ Rp 10.000</p>
+                    <p class="text-sm text-gray-500 mt-1">(Dapatkan meal plan yang disesuaikan dengan kebutuhan dan kondisi pribadimu)</p>
+                </div>
+
+                <a href="https://wa.me/6282268197199?text=Halo%2C%20saya%20tertarik%20dengan%20E-book%20Pawrep%20Senin%20ke%20Senin%20Rp%2011.000%20(dan%20Jasa%20Konsultasi%20jika%20perlu%20personal)" 
+                   target="_blank" 
+                   class="btn-primary text-white font-extrabold text-xl py-4 px-10 rounded-full shadow-2xl hover:shadow-3xl transition duration-300 flex items-center justify-center max-w-sm mx-auto">
+                    <span class="mr-2 text-2xl">💬</span> Pesan Via WhatsApp Sekarang!
+                </a>
+                <p class="text-sm mt-4 text-gray-500">Klik tombol di atas untuk pemesanan dan konsultasi.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-20 py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-xl font-bold mb-4 text-[#e0b4b4]">PAWREP SENIN KE SENIN</h3>
+            <p class="mb-2">Dibuat oleh:</p>
+            <p class="text-lg font-semibold mb-1">Fitri Nur Akmaliyah</p>
+            <p class="text-sm mb-4">Program Studi Gizi, Fakultas Psikologi dan Kesehatan, UIN Walisongo Semarang</p>
+            
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="https://www.instagram.com/liaayyix" target="_blank" class="hover:text-[#e0b4b4] transition duration-200">
+                    Instagram Personal (@liaayyix)
+                </a>
+                <span class="text-gray-500">|</span>
+                <a href="https://www.instagram.com/paw.senin" target="_blank" class="hover:text-[#e0b4b4] transition duration-200">
+                    Instagram PAWREP (@paw.senin)
+                </a>
+            </div>
+
+            <p class="text-sm text-gray-500 mt-6">&copy; 2025 Pawrep. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
